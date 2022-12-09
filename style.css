@@ -1,0 +1,41 @@
+
+* {
+    box-sizing: border-box;
+    padding: auto;
+    margin: auto;
+    box-shadow: 20px;
+}
+
+.head-space {
+    padding: 20px;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: rgb(73, 205, 205);
+    margin-top: 0px;
+    color:rgb(110, 106, 101)
+    
+}
+
+.head-space nav ul li {
+   
+    display: inline-block;
+    margin-left: 25px;
+    list-style-type: none;
+    float: right;
+}
+
+.navi {
+    display: inline;
+    color: rgb(64, 157, 157);
+}
+
+.fancy {
+    
+    font-size: 60px;
+    color:black
+    
+}
+
+body {
+    background-color: rgb(46, 46, 147);
+}
