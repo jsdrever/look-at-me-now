@@ -7,17 +7,19 @@
 }
 
 .head-space {
-    padding: 20px;
+    padding: 10px;
+    margin: 10px;
     font-size: 20px;
     font-family: cursive;
-    background-color: rgb(73, 205, 205);
+    background-color: rgb(109, 136, 163);
     margin-top: 0px;
-    color:rgb(110, 106, 101)
+    color:rgb(255, 255, 254)
     
 }
 
-.head-space nav ul li {
-   
+.navi {
+    top: 0px;
+    position:relative;
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
@@ -37,5 +39,5 @@
 }
 
 body {
-    background-color: rgb(46, 46, 147);
+    background-color: rgb(79, 136, 222);
 }
