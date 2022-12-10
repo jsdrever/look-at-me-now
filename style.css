@@ -7,13 +7,15 @@
 }
 
 .head-space {
+    font-style: oblique;
     padding: 10px;
     margin: 10px;
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(131, 227, 21);
+    background: linear-gradient(rgb(4, 233, 4), rgb(19, 98, 1));
     margin-top: 0px;
-    color:rgb(245, 239, 239)
+    color:rgb(4, 69, 5)
+     
     
 }
 
@@ -36,6 +38,7 @@
 
 body {
     background-color: rgb(79, 198, 63);
+    background: linear-gradient(rgb(4, 233, 4), rgb(19, 98, 1));
 }
 
 .tree-beard {
@@ -50,7 +53,7 @@ body {
 
 .info-dump {
     border: solid 5px black;
-    background-color: rgb(14, 107, 13);
+    background: linear-gradient(rgb(4, 233, 4), rgb(19, 98, 1));
 }
 
 #about-me {
@@ -66,11 +69,13 @@ body {
 #resume {
     border: solid 3px rgb(4, 193, 36);
     padding: 5px;
+    color: aliceblue;
 }
 
 #contact {
     border: solid 3px rgb(4, 193, 36);
     padding: 5px;
+    color: aliceblue;
 }
 
 .stumpy {
@@ -81,4 +86,17 @@ body {
     background-image: url("picture/stump.JPG");
     background-size: cover;
     background-position: center;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    border: 5px solid #151413;
+    border-radius: 20px;
+    background: linear-gradient(rgb(4, 233, 4), rgb(19, 98, 1));
+    color: aliceblue;
 }
