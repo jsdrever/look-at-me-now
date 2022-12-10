@@ -7,14 +7,21 @@
 }
 
 .head-space {
+    border-bottom: 15px solid black;
+    position: relative;
+    text-decoration: underline;
     font-style: oblique;
     padding: 10px;
     margin: 10px;
     font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: linear-gradient(rgb(4, 233, 4), rgb(19, 98, 1));
     margin-top: 0px;
-    color:rgb(4, 69, 5)
+    color:rgb(4, 69, 5);
+    width: 100%;
+    justify-content: center;
+
+   
      
     
 }
@@ -22,11 +29,13 @@
 .navi {
     top: 0px;
     position:relative;
+    border: 10px solid black;
     display: inline-block;
     margin-left: 25px;
-    list-style-type: none;
+    list-style-type: katakana;
     color: rgb(61, 196, 72);
     display: inline;
+    float: right;
 }
 
 .fancy {
