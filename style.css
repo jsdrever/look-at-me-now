@@ -7,17 +7,17 @@
 }
 
 .head-space {
-    border-bottom: 5px solid black;
+    
     position: relative;
-    text-decoration: underline;
-    font-style: oblique;
+    
+    
     padding: 10px;
     margin: 10px;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: linear-gradient(rgb(4, 233, 4), rgb(19, 98, 1));
+    
     margin-top: 0px;
-    color:rgb(4, 69, 5);
+    color:white;
     width: 100%;
     justify-content: center;
 
@@ -27,27 +27,29 @@
 }
 
 .navi {
+    font-family: apple chancery, cursive;
     top: 0px;
     position:relative;
-    border: 10px solid black;
+    border: 3px solid black;
     display: inline-block;
     margin-left: 25px;
     list-style-type: katakana;
     color: rgb(61, 196, 72);
     display: inline;
     float: right;
+    background-color:rgb(184, 193, 184);
 }
 
 .fancy {
     
-    font-size: 60px;
+    
     color:black
     
 }
 
 body {
-    background-color: rgb(79, 198, 63);
-    background: linear-gradient(rgb(4, 233, 4), rgb(19, 98, 1));
+    
+    background-color: #7fca38;
 }
 
 .tree-beard {
@@ -61,8 +63,9 @@ body {
 }
 
 .info-dump {
+    font-family: bradley hand, cursive;
     border: solid 5px black;
-    background: linear-gradient(rgb(4, 233, 4), rgb(19, 98, 1));
+    background: linear-gradient(rgb(171, 179, 171), rgb(19, 98, 1));
 }
 
 #about-me {
@@ -98,14 +101,15 @@ body {
 }
 
 .footer {
+    font-size: 18px;
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Trattatello, fantasy;
     text-align: center;
     margin: 0 auto;
     width: 100%;
     border: 5px solid #151413;
     border-radius: 20px;
-    background: linear-gradient(rgb(4, 233, 4), rgb(19, 98, 1));
-    color: aliceblue;
+    background: linear-gradient(rgb(28, 170, 28), rgb(17, 79, 3));
+    color: rgb(206, 222, 210);
 }
