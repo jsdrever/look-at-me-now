@@ -26,6 +26,14 @@
     
 }
 
+.lol {
+    position: fixed;
+    right: 30%;
+    top: 0;
+    border-top: solid 3px #151413;
+    max-width: 50px;
+}
+
 .navi {
     font-family: apple chancery, cursive;
     top: 0px;
