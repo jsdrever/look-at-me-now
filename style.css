@@ -47,3 +47,28 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+.info-dump {
+    border: solid 5px black;
+    background-color: rgb(14, 107, 13);
+}
+
+#about-me {
+    border: solid 3px rgb(4, 193, 36);
+    padding: 5px;
+}
+
+#projects {
+    border: solid 3px rgb(4, 193, 36);
+    padding: 5px;
+}
+
+#resume {
+    border: solid 3px rgb(4, 193, 36);
+    padding: 5px;
+}
+
+#contact {
+    border: solid 3px rgb(4, 193, 36);
+    padding: 5px;
+}
