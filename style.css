@@ -39,11 +39,11 @@
     top: 0px;
     position:relative;
     border: 3px solid black;
-    display: inline-block;
+    display: inline;
     margin-left: 25px;
     list-style-type: katakana;
     color: rgb(61, 196, 72);
-    display: inline;
+    
     float: right;
     background-color:rgb(184, 193, 184);
 }
@@ -69,11 +69,15 @@ body {
     background-size: cover;
     background-position: center;
 }
-
+main {
+    
+}
 .info-dump {
     font-family: bradley hand, cursive;
     border: solid 5px black;
     background: linear-gradient(rgb(171, 179, 171), rgb(19, 98, 1));
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #about-me {
@@ -134,3 +138,66 @@ body {
     background: linear-gradient(rgb(28, 170, 28), rgb(17, 79, 3));
     color: rgb(206, 222, 210);
 }
+
+.card p {
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
+.card {
+    flex: 1 0 200px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+  }
+  
+  .card header {
+    padding: 20px;
+  }
+  @media screen and (min-width: 1025px) {
+    .card {
+      width: 25%;
+    }
+   
+    header {
+      background: #277827;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .card {
+      width: 25%;
+    }
+   
+    header {
+      background: #277827;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 50%;
+    }
+    
+    header {
+      background: #4cd675;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .card {
+      width: 100%;
+      justify-content: center;
+    }
+    .riley {
+        max-width: 50%;
+        max-height: 25%;
+       
+    }
+    header {
+      background: #44ed47;
+    }
+  }
