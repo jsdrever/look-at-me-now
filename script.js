@@ -1,5 +1,8 @@
 // Assignment Code
+var passwordEl = document.querySelector(#)
 
+
+var = newPassword = "";
 
 const resultEl = document.getElementById("result");
 const lengthEl = document.getElementById("length");
@@ -9,6 +12,7 @@ const numbersEl = document.getElementById("numbers");
 const symbolsEl = document.getElementById("symbols");
 const generateEl = document.getElementById("generate");
 const clipboardEl = document.getElementById("clipboard");
+var passwordEl = document.getElementById("password");
 var generateBtn = document.querySelector("#generate");
 
 const randomFunc = {
@@ -46,7 +50,8 @@ function generatePassword() {
 //it needs to prompt an alert
 //need to have all the uppercase lowercase symbols and numbers and how many characters its length will be
 //Show the new password. I think i want it to show in the prompt prob 
-function getRandomLower() {
+let newPassword = "";
+ function getRandomLower() {
     return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
   }
   function getRandomUpper() {
@@ -77,6 +82,9 @@ if (confirm('Include capital letters?')) {
  
   if (confirm('Include symbols?')) {
     chosenCharactersArr.push(getRandomSymbols)
+    {
+        passwordEl.textContent = newPassword;
+    }
   };
 // for (var i= 0; i < password.results- i want to loop through all the results and put them together; i++){
     //console.log('results + i)
@@ -87,24 +95,28 @@ console.log(getRandomNumber());
 console.log(getRandomSymbols());
 
 // Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+//function writePassword() {
+  //var password = generatePassword();
+  //var passwordText = document.querySelector("#password");
 
-  passwordText.value = password;
+  //passwordText.value = password;
 
-}
+//}
+
+
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", newPassword);
+
+
 
   
-    resultEl.innerText = generatePassword(
-      getRandomLower, 
-      getRandomUpper, 
-      getRandomNumber, 
-      getRandomSymbols
-      );
+    //resultEl.innerText = generatePassword(
+      getRandomLower(),
+      getRandomUpper(), 
+      getRandomNumber(), 
+      getRandomSymbols()
+     // );
   
 
 //PROMPT-PROMPT example for help
