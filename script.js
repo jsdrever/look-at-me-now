@@ -1,8 +1,8 @@
 // Assignment Code
-var passwordEl = document.querySelector(#)
 
 
-var = newPassword = "";
+
+
 
 const resultEl = document.getElementById("result");
 const lengthEl = document.getElementById("length");
@@ -95,13 +95,13 @@ console.log(getRandomNumber());
 console.log(getRandomSymbols());
 
 // Write password to the #password input
-//function writePassword() {
-  //var password = generatePassword();
-  //var passwordText = document.querySelector("#password");
+function newPassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
 
-  //passwordText.value = password;
+  passwordText.value = password;
 
-//}
+}
 
 
 
@@ -111,12 +111,12 @@ generateBtn.addEventListener("click", newPassword);
 
 
   
-    //resultEl.innerText = generatePassword(
+    resultEl.innerText = generatePassword(
       getRandomLower(),
       getRandomUpper(), 
       getRandomNumber(), 
       getRandomSymbols()
-     // );
+      );
   
 
 //PROMPT-PROMPT example for help

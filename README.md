@@ -4,3 +4,5 @@ Creates a password when "generate password" is clicked. Uses prompts to select i
 
 ###
 dont forget to put the deployed URL here again and fix the wording of your copy pasted readme from the class github
+
+https://github.com/jsdrever/look-at-me-now.git
