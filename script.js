@@ -66,7 +66,7 @@ let newPassword = "";
   }
 
   var chosenCharactersArr = []
-  var passwordstring = ''
+  var passwordString = ''
 
 if (confirm('Include capital letters?')) {
     chosenCharactersArr.push(getRandomUpper)
@@ -95,13 +95,13 @@ console.log(getRandomNumber());
 console.log(getRandomSymbols());
 
 // Write password to the #password input
-function newPassword() {
+//function newPassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
 
-}
+//}
 
 
 
