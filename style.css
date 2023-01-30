@@ -3,7 +3,9 @@
 *::after {
   box-sizing: border-box;
 }
-
+#sectional {
+  
+}
 html,
 body,
 .wrapper {
@@ -15,7 +17,7 @@ body,
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
-  background-image: url('/wrath-photos/look-at-this.jpg');
+  background-image: url('/images/look-at-this.jpg');
   background-size: cover;
   background-position: center;
    height: 300px;
@@ -36,7 +38,7 @@ header {
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 25%, 90%);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
